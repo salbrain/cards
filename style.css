@@ -117,6 +117,7 @@ button{
 .about{
     float: left;
     margin-left: 10%;
+    margin-bottom: 40px;
 
 }
 
@@ -157,31 +158,50 @@ button{
     float: left;
     width: 100%;
     height: 500px;
-    background-color: #ff0000;
+    background-color: #f1eded;
     margin-top: 35px;
     
 }
 
 
 .carda{
-    margin: 30px;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 30px;
+    margin-bottom: 20px;
     height: 400px;
     display: flex;
+    float: left;
     flex-direction: row;
 }
 
 .cardu{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 400px;
     width: 25%;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon{
-    width: 35;
-    height: 35;
+    width: 60px;
+    height: 60px;
     background-color: #283a8a;
     margin-top: 50px;
-    margin-left: 20%;
-    margin-bottom: 50px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.cardu h3{
+    padding: 17px;
+    font-size: 27px;
+    text-align: center;
+    color: rgb(53, 47, 47);
+}
+
+.cardu h4{
+    padding: 20px;
+    color:rgb(68, 65, 65)
 }
